@@ -1,0 +1,118 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+
+
+
+/* Nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    /* ata kortese karon ul h3 er jonno */
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+nav ul li{
+    list-style: none;
+    /* margin right er maje 51 nibo ak line anar pr gap krtese tai*/
+    margin-right: 51px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* parent ul ke like protfolio blog ak line */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+
+/* nav er color thik*/
+
+.dark-2{
+    color: #474747;
+}
+
+/* buttor er margin padding */
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+
+/* header class er jonno */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+
+
+/* abba banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+
+
+
+
+/* banner styles */
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-profice-pic{
+    width: 580px;
+}
+
+
+.banner-description{
+    font-size: 20px;
+    font-weight: 18px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
