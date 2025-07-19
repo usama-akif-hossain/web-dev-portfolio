@@ -13,6 +13,8 @@
 .text-primary{
     color: #FD6E0A;
 }
+
+/* secondary-bg color */
 .secondary-bg{
     background-color: #FFF8F3;
 }
@@ -71,7 +73,9 @@ nav ul{
     border-radius: 5px;
     font-size: 20px;
     border: none;
+    
 }
+
 
 
 /* header class er jonno */
@@ -142,14 +146,19 @@ main{
     margin: 0 auto;
 }
 
+/* jto section ase */
 
+main section{
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
 
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+   
 }
 
 /* abba for items */
@@ -162,4 +171,85 @@ main{
 
 .item-description{
     font-weight: 600 ;
+}
+
+
+
+/* skills section */
+
+.text-center{
+    text-align: center;
+}
+
+/* skills section style */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px #000000 ;
+    border-radius: 5px;
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+   
+}
+
+.experience-description .experience-sub-title{
+    color: #757575;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;  
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* 
+.section-title{
+    text-align: center;
+} */
+
+
+/* footer Styles */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+
+}
+
+
+.footer-column{
+    width: 50%;
+}
+
+
+footer input[type="text"],footer input[type="email"], footer textarea{
+   height: 64px;
+   border-radius: 5px;
+   background-color: white;
+   display: block;
+   width: 100%;
+   padding: 10px 20px;
+   margin-bottom: 24px;
+   border: none;
+
+
 }
